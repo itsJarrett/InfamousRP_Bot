@@ -513,7 +513,7 @@
   },
   "libraries": {
     "Discord.Net/2.0.0": {
-      "sha512": "nW/5FR2+U7IAmHc8F2Kl3e+4WPVqpxXuo7Ydauc8QL0XaobToYCIKvqKyUTCKzXVLECdoZ3RrInsqfqWR3oVHg==",
+      "sha512": "ovztvMVRg5q1TzB3P1Oqwn1YpiTzpwnHREaG8h100vvRYwbBIAavNjOR2Ee5N3a2Y7p9GC3z6FBdy8DzLcO7rQ==",
       "type": "package",
       "path": "discord.net/2.0.0",
       "files": [
@@ -524,7 +524,7 @@
       ]
     },
     "Discord.Net.Commands/2.0.0": {
-      "sha512": "zByVTcsElX1fVd0XvUuQBPpfEwr/Mtmi9nfxDbjX/iHu3h0oPzK2TnNmAf7/1d90e4Uo/e7Rjetug9NrJdIcgg==",
+      "sha512": "ZPJeZhqMcpvDcqr/a9G0vhADa7pVHLsE6A1t2L4VWTGOZCO0cBGUTQpiYuK1JFOeufMuPWYfIuLuPYBgUS7p9Q==",
       "type": "package",
       "path": "discord.net.commands/2.0.0",
       "files": [
@@ -541,7 +541,7 @@
       ]
     },
     "Discord.Net.Core/2.0.0": {
-      "sha512": "HoyRpjt9zhGU+vBRj7DOoiGFcy9rMuTHJ54Sr1yUKtieuOuqbXKVAip3RUZCxhe7Mclh9L00HLrvsr9JaL2A4g==",
+      "sha512": "B5s4GQiSw1V359gBYvkrnkEotE/sAcJKxwnzYEA+HjlQyYn2ayddTO9g5HrcT9KwFWNYTC1smK0TUqHuGNuQRw==",
       "type": "package",
       "path": "discord.net.core/2.0.0",
       "files": [
@@ -558,7 +558,7 @@
       ]
     },
     "Discord.Net.Rest/2.0.0": {
-      "sha512": "oREvgm+VPD/w/KkWIsCnunyhCTFLmXap5sZ/l4v8Y7yrz0mHqXAAlKeGzYmWe61C9pvRrXewKwanPCDuDaIK9w==",
+      "sha512": "vMvrcdp/Bh8nt7zbR2sfL+tFfQJoocR3C9nO2c9A0qb2R4Dl2AZyWkAO6F+bQ3suGxnWk2MwRgwNf1KfHO62jg==",
       "type": "package",
       "path": "discord.net.rest/2.0.0",
       "files": [
@@ -575,7 +575,7 @@
       ]
     },
     "Discord.Net.Webhook/2.0.0": {
-      "sha512": "9N8YGYpT+VcMaImar8zsTU/mAy8vLwMHEL2OlPWqMwu2je3Ckp/1lF2hHxURBb92eqTiZpyM6Ec2rM6xqmcx/g==",
+      "sha512": "EfruMvXLhe37/dDLKuKwxJljP47as4MTsyykcU1QmZ5i5DY3p8Tg01Js3Rx0dKCnk6k6A8BvHq/8pbXcdDn3VA==",
       "type": "package",
       "path": "discord.net.webhook/2.0.0",
       "files": [
@@ -588,7 +588,7 @@
       ]
     },
     "Discord.Net.WebSocket/2.0.0": {
-      "sha512": "FlpLd5udbHD7WUxFUnkSvOa3P4Sfjm7LUIwrd/H2MB06Si0vwzD8pb2P+yMvxVpAoWBkx29+vgiMxok3ncW0Xw==",
+      "sha512": "hJt98sJwCpBOl64UP7w+dZTs0Gs5AK/Ph1Qy0yD8U9jFhwvSpNv571wH7T9cLABtMlA5tsRga9Nn7GjuyjfsOw==",
       "type": "package",
       "path": "discord.net.websocket/2.0.0",
       "files": [
@@ -973,7 +973,7 @@
       ]
     },
     "MySqlConnector/0.48.2": {
-      "sha512": "Dvbu3fg3eoz8i0vMzZ1va9gyoBRmbcaw/L/d9vho2vS7neiD8MUp3wq9if127YSuKVhXWCCHLHeKd/ubwKZOJw==",
+      "sha512": "GZQ2Vr4qxKzeFC03Wsmty10H9SIxHoviRBWIB80rUBuSPv/HlP2iZUuhgpAOICADsiELSjMyE13hQ4RC1mJmgg==",
       "type": "package",
       "path": "mysqlconnector/0.48.2",
       "files": [
@@ -1119,7 +1119,7 @@
       ]
     },
     "Newtonsoft.Json/12.0.1": {
-      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.1",
       "files": [
@@ -2165,7 +2165,6 @@
             "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
