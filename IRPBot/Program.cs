@@ -20,6 +20,8 @@ namespace IRPBot
         public List<ulong> waitingProduction = new List<ulong>();
         public List<ulong> waitingDevelopment = new List<ulong>();
         
+        public DiscordSocketClient client = new DiscordSocketClient();
+        
         public static void Main(string[] args)
             => new Program().MainAsync().GetAwaiter().GetResult();
 
@@ -32,8 +34,7 @@ namespace IRPBot
             }
 
             Settings.loadSettings();
-
-            var client = new DiscordSocketClient();
+            
             client.Log += Log;
 
             string token = Settings.getSettings().DiscordBotToken;
@@ -42,9 +43,35 @@ namespace IRPBot
 
             client.GuildMemberUpdated += ClientOnGuildMemberUpdated;
             client.MessageReceived += ClientOnMessageReceived;
+            
+            client.Ready += ClientOnReady;
 
             await client.SetGameAsync("InfamousRoleplay.com");
             await Task.Delay(-1);
+        }
+
+        private Task ClientOnReady()
+        {
+            foreach (var guild in client.Guilds)
+            {
+                if (Settings.getSettings().ProductionGuildServerNames.Contains(guild.Name) ||
+                    Settings.getSettings().DevelopmentGuildServerNames.Contains(guild.Name))
+                {
+                    foreach (var user in guild.Users)
+                    {
+                        List<string> userRoles = user.Roles.Select(role => role.Name).ToList();
+                        if (userRoles.Contains(Settings.getSettings().WhitelistedRoleName) && !IsDiscordIdInDB(user.Id))
+                        {
+                            foreach (var socketRole in user.Roles.Where((role, index) => role.Name == Settings.getSettings().WhitelistedRoleName)) user.RemoveRoleAsync(socketRole);
+                        }
+                        if (IsDiscordIdInDB(user.Id) && !userRoles.Contains(Settings.getSettings().WhitelistedRoleName))
+                        {
+                            foreach (var socketRole in guild.Roles.Where((role, index) => role.Name == Settings.getSettings().WhitelistedRoleName)) user.AddRoleAsync(socketRole);
+                        }
+                    }
+                }
+            }
+            return Task.CompletedTask;
         }
 
         public bool IsSteamHexInDB(string steamHex)
