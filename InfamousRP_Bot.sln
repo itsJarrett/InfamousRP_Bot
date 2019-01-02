@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfamousRP_Bot", "InfamousRP_Bot.csproj", "{431CB0AA-4DC3-4B7B-BC5B-F578A1E662C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRPBot", "IRPBot\IRPBot.csproj", "{3140BC75-F870-423B-8359-ADDAB908EBED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{431CB0AA-4DC3-4B7B-BC5B-F578A1E662C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{431CB0AA-4DC3-4B7B-BC5B-F578A1E662C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{431CB0AA-4DC3-4B7B-BC5B-F578A1E662C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3140BC75-F870-423B-8359-ADDAB908EBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3140BC75-F870-423B-8359-ADDAB908EBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3140BC75-F870-423B-8359-ADDAB908EBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3140BC75-F870-423B-8359-ADDAB908EBED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

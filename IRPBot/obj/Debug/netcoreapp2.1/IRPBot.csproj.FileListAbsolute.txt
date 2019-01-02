@@ -1,0 +1,11 @@
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\bin\Debug\netcoreapp2.1\IRPBot.deps.json
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\bin\Debug\netcoreapp2.1\IRPBot.dll
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\bin\Debug\netcoreapp2.1\IRPBot.pdb
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\obj\Debug\netcoreapp2.1\IRPBot.csproj.CoreCompileInputs.cache
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\obj\Debug\netcoreapp2.1\IRPBot.AssemblyInfoInputs.cache
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\obj\Debug\netcoreapp2.1\IRPBot.AssemblyInfo.cs
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\obj\Debug\netcoreapp2.1\IRPBot.dll
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\obj\Debug\netcoreapp2.1\IRPBot.pdb
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\obj\Debug\netcoreapp2.1\IRPBot.csprojAssemblyReference.cache
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\bin\Debug\netcoreapp2.1\IRPBot.runtimeconfig.json
+D:\Jarrett's Drive\Development\InfamousRP_Bot\IRPBot\bin\Debug\netcoreapp2.1\IRPBot.runtimeconfig.dev.json
